@@ -22,7 +22,7 @@ func InitDB() {
 	username := "alterra_123"
 	password := "B1common"
 	host := "db4free.net"
-	port := "127.0.0.1"
+	port := "3306"
 	name := "alterra_123"
 
 	connectionString := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?parseTime=true",
